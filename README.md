@@ -9,23 +9,23 @@ with the following modifications:
 - Reverse the order of characters in the string.
 - Convert all characters to lowercase.
 
-For example:
-input: "  Hello World  "
+For example:\
+input: verlan("  Hello World  ")\
 output: "dlrow olleh"
 
 ## Ex2 : Calculator
- Perform basic arithmetic operations based on the given operation.
+Perform basic arithmetic operations based on the given operation.
 
-Parameters:
+Implement a function named "calculate" that takes parameters:
   - a: The first operand (number)
   - b: The second operand (number)
   - operation: The arithmetic operation to perform ('+', '-', '*', '/')
 
-Returns:
-  The result of the specified arithmetic operation.
-  If the operation is not one of '+', '-', '*', '/', returns None.
-  If attempting to divide by zero, returns None.
+Returns:\
+ The result of the specified arithmetic operation.\
+ If the operation is not one of '+', '-', '*', '/', returns None.\
+ If attempting to divide by zero, returns None.
 
-For example:
-  input: 10, 2, '/'
+For example:\
+  input: calculate(10, 2, '/')\
   output: 5
