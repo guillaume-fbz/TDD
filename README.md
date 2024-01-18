@@ -29,3 +29,6 @@ Returns:\
 For example:\
   input: calculate(10, 2, '/')\
   output: 5
+
+## Ex3 : Student
+Add unit tests on student.py class and then generate a test coverage report using pytest-cov.
