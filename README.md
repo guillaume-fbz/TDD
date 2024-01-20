@@ -77,6 +77,34 @@ Source: https://codingdojo.org/kata/RomanNumerals/
 
 ## Chapter 3 : Advanced testing
 
-## Ex1 : TBD Mocking
+## Ex1 : WeatherNow API
 
-## Ex2 : TBD FastAPI route
+Create an API using FastAPI framework that uses an external weather library to fetch and display the current temperature for a given city. (use weather_service.py file in this repository)
+
+Example :
+
+     input HTTP GET 200 : http://localhost:8080/weather/Valenciennes
+     output: HTTP 200 { 'town': 'Valenciennes', 'temperature': 5, 'feeling': 'Cold' }
+
+Rules:
+
+Temperature feeling:\
+Cold: Below 10 degrees Celsius\
+Moderate: 10 to 20 degrees Celsius\
+Warm: 20 to 30 degrees Celsius\
+Hot: Above 30 degrees Celsius
+
+In this world, we consider that only three cities exists : Valenciennes, Lille and Paris.
+
+Errors management:
+
+Implement error handling to manage unknown city.
+
+     input: HTTP GET : http://localhost:8080/weather/PalletTown
+     output: HTTP 404 NOT_FOUND
+
+Implement error handling to manage exceptions that may occur during the temperature retrieval process.
+
+     input HTTP GET : http://localhost:8080/weather/Valenciennes
+     output: HTTP 503 SERVICE_UNAVAILABLE
+     
