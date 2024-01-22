@@ -14,6 +14,8 @@ For example:
      input: verlan("  Hello World  ")
      output: "dlrow olleh"
 
+Add units test after implementation.
+
 ## Ex2 : Calculator
 Perform basic arithmetic operations based on the given operation.
 
@@ -32,6 +34,7 @@ For example:
      input: calculate(10, 2, '/')
      output: 5
 
+Add units test after implementation.
 
 ## Ex3 : Student
 Add unit tests on student.py class and then generate a test coverage report using pytest-cov.
