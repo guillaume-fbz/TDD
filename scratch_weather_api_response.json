@@ -1,0 +1,33 @@
+{
+  "data": {
+    "time": "2024-01-24T08:53:00Z",
+    "values": {
+      "cloudBase": 0.29,
+      "cloudCeiling": 0.29,
+      "cloudCover": 94,
+      "dewPoint": 7.38,
+      "freezingRainIntensity": 0,
+      "humidity": 85,
+      "precipitationProbability": 0,
+      "pressureSurfaceLevel": 1021.57,
+      "rainIntensity": 0,
+      "sleetIntensity": 0,
+      "snowIntensity": 0,
+      "temperature": 9.69,
+      "temperatureApparent": 9.69,
+      "uvHealthConcern": 0,
+      "uvIndex": 0,
+      "visibility": 16,
+      "weatherCode": 1001,
+      "windDirection": 254.38,
+      "windGust": 13.19,
+      "windSpeed": 7.69
+    }
+  },
+  "location": {
+    "lat": 50.357933044433594,
+    "lon": 3.523484706878662,
+    "name": "Valenciennes, Nord, Hauts-de-France, France métropolitaine, 59300, France",
+    "type": "administrative"
+  }
+}
